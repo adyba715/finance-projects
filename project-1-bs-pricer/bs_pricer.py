@@ -33,7 +33,4 @@
 # 
 #
 
-from bs_pricer import Option
-option1 = Option(100, 100, 0.05, 1, 0.20,"put")
-option2= Option(100, 100, 0.05, 1, 0.20,"call")
-print(option1.prix(),option2.prix())
+
