@@ -1,4 +1,5 @@
 import numpy as np
+from bs_pricer import Option
 def vol_implicite(Cmarche, S, K, r, T, type_option, max_iter=100, epsilon=1e-6):
     sigma = 0.20
     
