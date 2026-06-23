@@ -1,4 +1,3 @@
-%%writefile vol_impl.py
 import numpy as np
 
 from bs_pricer import Option
