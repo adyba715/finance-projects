@@ -9,7 +9,7 @@ def vol_implicite(Cmarche, S, K, r, T, type_option):
     while np.abs(prixBS - Cmarche) > epsilon:
         opt = Option(S, K, r, T, sigma, type_option)
         prixBS = opt.prix()
-        vega = opt.vega() * 100
+        vega = opt.vega() 
         sigma = sigma - (prixBS - Cmarche) / vega
     
     return sigma
